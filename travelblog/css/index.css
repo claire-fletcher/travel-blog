@@ -2,7 +2,23 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  
 }
+
+
+li a {
+  display: block;
+  padding: 20px;
+  background-color: #f9dbff;
+  float: left;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
 .h1 {
     font-family: "montserrat";
     font-weight: 400;
