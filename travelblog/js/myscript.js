@@ -17,7 +17,7 @@ function pressAlert() {
 function pressAlert() {
     console.log('Button has been pressed')
     }
-    document.getElementById(“myButton”).addEventListener(“click”, );
+    document.getElementById(`myButton`).addEventListener(`click`, );
 
 
     
