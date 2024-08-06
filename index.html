@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -27,15 +27,15 @@
     <!-- header -->
     <header>
       <!-- nav bar-->
-      <div>
-        <ul class="nav">
-          <li><a href="default.asp"> Photos </a></li>
-          <li><a href="news.asp"> Blog </a></li>
-          <li><a href="contact.asp"> Social Media </a></li>
-          <li><a href="about.asp"> Countries </a></li>
-          <li><a href="about.asp"> Contact us </a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #f9dbff;">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active mx-2" href="#"> Photos </a>
+          <a class="nav-item nav-link active mx-2" href="#"> Blog </a>
+          <a class="nav-item nav-link active mx-2" href="#"> Social Media </a>
+          <a class="nav-item nav-link active mx-2" href="#"> Countries </a>
+          <a class="nav-item nav-link active mx-2" href="#"> Contact us </a>
+        </div>
+      </nav>
     </header>
 
     <!-- main -->
@@ -51,29 +51,29 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="4500">
-            <div class="overlay-image" style="background-image:url(./assets/puglia.jpg);" alt="Puglia, Italy">
+            <div class="overlay-image carousel-overlay-image" style="background-image:url(./assets/puglia.jpg);" alt="Puglia, Italy">
             </div>
-            <div class="container">
+            <div class="container carousel-overlay">
               <h1 class="h1-carousel">SEE THE WORLD</h1>
-              <h6>HTML-Heroines travel blog</h6><br>
+              <h6>HTML-Heroines travel blog</h6>
               <button type="button" class="btn btn-light btn-sm">EXPLORE NOW</button>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="4500"> 
-            <div class="overlay-image" style="background-image:url(./assets/cumbria.jpg);" alt="Cumbria, UK">
+            <div class="overlay-image carousel-overlay-image" style="background-image:url(./assets/cumbria.jpg);" alt="Cumbria, UK">
             </div>
-            <div class="container">
+            <div class="container carousel-overlay">
               <h1 class="h1-carousel">SEE THE WORLD</h1>
-              <h6>HTML-Heroines travel blog</h6><br>
+              <h6>HTML-Heroines travel blog</h6>
               <button type="button" class="btn btn-light btn-sm">EXPLORE NOW</button>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="4500">
-            <div class="overlay-image" style="background-image:url(./assets/kyoto.jpg);" alt="Kyoto, Japan">
+            <div class="overlay-image carousel-overlay-image" style="background-image:url(./assets/kyoto.jpg);" alt="Kyoto, Japan">
             </div>
-            <div class="container">
+            <div class="container carousel-overlay">
               <h1 class="h1-carousel">SEE THE WORLD</h1>
-              <h6>HTML-Heroines travel blog</h6><br>
+              <h6>HTML-Heroines travel blog</h6>
               <button type="button" class="btn btn-light btn-sm">EXPLORE NOW</button>
             </div>
           </div>
@@ -81,39 +81,130 @@
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
-          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
       <!-- Heading for the Blogs -->
-      <h2> Read our most recent blogs </h2>
+      <div class="container">
+        <h2> Read our most recent blogs </h2>
+      </div>
 
       <!-- Cards -->
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-4 d-flex align-items-stretch">
+            <div class="card">
+              <img src="./assets/cumbria.jpg" class="card-img-top" alt="Python">
+              <div class="card-body">
+                <h5 class="card-title">Blog 1</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex align-items-stretch">
+            <div class="card">
+              <img src="./assets/kyoto.jpg" class="card-img-top" alt="Python">
+              <div class="card-body">
+                <h5 class="card-title">Blog 2</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 d-flex align-items-stretch">
+            <div class="card">
+              <img src="./assets/puglia.jpg" class="card-img-top" alt="Python">
+              <div class="card-body">
+                <h5 class="card-title">Blog 3</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Text preview -->
+       <!-- TODO: center and add padding and more text-->
+      <div class="container">
+        <p>Coming soon: Best bakeries in the UK</p>
+      </div>
 
     </main>
 
-    <!-- footer -->
-    <footer>
-      <!-- social links -->
-      <div>
-        <ul class="sociallinks">
-          <li><a href="default.asp"> Instagram </a></li>
-          <li><a href="news.asp"> Facebook </a></li>
-          <li><a href="contact.asp"> X </a></li>
-          <li><a href="about.asp"> Pinterest </a></li>
-          <li><a href="about.asp"> Email us! </a></li>
-        </ul>
+    <!-- Footer -->
+    <footer class="text-center  " style="background-color: #f9dbff">
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <!-- Section: Links to other information -->
+          <section class="mt-5">
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class=" ">About us</a>
+                </h6>
+              </div>
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class=" ">Products</a>
+                </h6>
+              </div>
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class=" ">Awards</a>
+                </h6>
+              </div>
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class=" ">Help</a>
+                </h6>
+              </div>
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="#!" class=" ">Contact</a>
+                </h6>
+              </div>
+            </div>
+          </section>
+
+          <hr class="my-5" />
+
+          <!-- Section: Social -->
+          <section class="text-center mb-5">
+            <a href="" class="me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4">
+              <i class="fab fa-github"></i>
+            </a>
+          </section>
+        </div>
+        <div class="text-center p-3" style="background-color: #f9dbff">
+          © 2020 Copyright: <a>HTML-Heroines</a>
+        </div>
       </div>
     </footer>
-
+    
     <!-- scripts -->
     <script src="./scripts/button.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
   
   </body>
 </html>
