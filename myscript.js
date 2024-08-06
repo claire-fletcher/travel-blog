@@ -16,14 +16,16 @@ function pressAlert() {
 
 function pressAlert() {
     console.log('Button has been pressed')
-    }
-    document.getElementById(“myButton”).addEventListener(“click”, );
+}
+document.getElementById('myButton').addEventListener('click', pressAlert);
 
 
-    
+
 function pressAlert() {
-        console.log('Button has been pressed')
-        }
-        
-        
-        ('myButton').addEventListener('click', pressAlert);
+    console.log('Button has been pressed')
+}
+
+
+('myButton').addEventListener('click', pressAlert);
+
+const carousel = new bootstrap.Carousel('#myCarousel')
