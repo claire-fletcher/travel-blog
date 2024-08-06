@@ -1,5 +1,31 @@
-* {
+/* * {
   outline: 1px solid orange;
+} */
+
+/*Colouring of the text and the icons in footer*/
+footer {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-icons {
+  color: #ffffff;
+  font-size: 2.5vh;
+}
+
+
+/*Navbar formatting*/
+.nav-item.nav-link {
+  color: #ffffff;
+}
+
+.nav-item.nav-link:hover {
+  color: #daddc5;
+}
+
+.nav-item.nav-link.active {
+  color: #ffffff;
+  border-bottom: solid 2px #ffffff;
 }
 
 /* .h1 {
@@ -7,75 +33,49 @@
     font-size: 100px;
 }
 
-.button {
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #751869;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-  }
-  
-  .button:hover {
-    background-color: #3e8e41
-  }
-  
-  .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  } */
+/* css for carousel */
 
-  /* css for carousel */
+.carousel-item {
+  height: 490px;
+  background: #101010;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
 
-  .carousel-item {
-    height: 490px;
-    background: #101010;
-    color: white;
-    position: relative;
-    background-position: center;
-    background-size: cover;
-  }
+/*TODO: fix this as this overwrites the container for all! Potentially use the in-built centering etc.*/
+.carousel-overlay {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px;
+  padding-bottom: 150px;
+}
 
-  /*TODO: fix this as this overwrites the container for all! Potentially use the in-built centering etc.*/
-  .carousel-overlay {
-    position: absolute;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border: 1px;
-    padding-bottom: 150px;
-  }
+.carousel-overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
 
-  .carousel-overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.6;
-  }
+.h1-carousel {
+  font-weight: 200px;
+  font-size: 60px;
+  line-height: 85px;
+}
 
-  .h1-carousel {
-    font-family: montserrat;
-    font-weight: 200px;
-    font-size: 60px;
-    line-height: 85px;
-  }
+h6 {
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 22px
+}
 
-  h6 {
-    font-family: montserrat;
-    font-weight: 400px;
-    font-size: 18px;
-    line-height: 22px
-        
-  }
-
-  /* css for carousel */
+/* css for carousel */
