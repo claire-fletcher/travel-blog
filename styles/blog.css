@@ -1,0 +1,73 @@
+/* added in font-family here due to it sometimes glitching */
+body {
+    font-family: 'Montserrat';
+}
+
+/* css for blog pages */
+.blog-img {
+    height: 270px;
+    background: #101010;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-head {
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px;
+    padding: 0 0 60px 70px;
+}
+
+.h1-blog {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.blog-time {
+    font-size: 22px;
+    padding: 40px 0 40px 70px;
+}
+
+.blog-main-text {
+    font-size: 20px;
+    padding: 0 12% 2% 12%;
+    text-align: center;
+}
+
+.blog-flex {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-bottom: 5%;
+}
+
+.blog-secondary-text {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    min-width: 250px;
+}
+
+.blog-secondary-img {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .blog-secondary-text, .secondary-img {
+      flex: 100%;
+    }
+}
