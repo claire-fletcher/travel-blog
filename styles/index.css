@@ -2,54 +2,6 @@
   outline: 1px solid orange;
 } */
 
-/* General Themes */
-body {
-  font-family: 'Montserrat';
-}
-
-
-/*Colouring of the text and the icons in footer*/
-footer {
-  color: #ffffff;
-  background-color: #283a2c;
-}
-
-.footer-icons {
-  color: #ffffff;
-  font-size: 2.5vh;
-}
-
-
-/*Navbar formatting*/
-.navbar {
-  background-color: #283a2c;
-}
-
-.collapse {
-  justify-content: center;
-}
-
-.navbar-brand {
-  color: #F1EFEC;
-}
-
-.nav-link {
-  color: #ffffff;
-}
-
-.nav-link:hover {
-  color: #daddc5;
-}
-
-.nav-link.mx-2.active {
-  color: #ffffff;
-  border-bottom: solid 2px #ffffff;
-}
-
-.navbar-toggler {
-  background-color: #daddc5;
-}
-
 /* css for carousel */
 
 .carousel-item {
