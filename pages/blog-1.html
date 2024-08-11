@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Travel Blog</title>
 
 </head>
@@ -55,6 +56,7 @@
         <div>
             <div class="blog-time"><time datetime="2024-07-17">17/07/2024</time></div>
             <div class="blog-main-text">
+                <!-- holly to add-in desired content -->
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -71,7 +73,7 @@
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
                 </p>
             </div>
             <div class="blog-flex">
@@ -86,6 +88,24 @@
                 </div>
             </div>
         </div>
+        <div class="reaction-section">
+            <h6>Tell us what you thought of this blog</h6>
+        </div>
+        <div class="post-ratings-container">
+            <div class="post-rating">
+                <i class="post-rating-button material-icons" id="favoriteBtn" onClick="toggleFavorite()">favorite</i>
+                <span class="favorite" id="favoriteCount">0</span>
+            </div>
+            <div class="post-rating">
+                <i class="post-rating-button material-icons" id="likeBtn" onClick="toggleLike()">thumb_up</i>
+                <span class="like" id="likeCount">0</span>
+            </div>
+            <div class="post-rating">
+                <i class="post-rating-button material-icons" id="dislikeBtn" onClick="toggleDislike()">thumb_down</i>
+                <span class="dislike" id="dislikeCount">0</span>
+            </div>
+        </div>
+
     </main>
 
     <!-- Footer -->
@@ -115,7 +135,7 @@
     </footer>
 
     <!-- scripts -->
-    <script src="./scripts/button.js"></script>
+    <script src="../scripts/button.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
