@@ -2,6 +2,11 @@
   outline: 1px solid orange;
 } */
 
+/* added in font-family here due to it sometimes glitching */
+body {
+  font-family: 'Montserrat';
+}
+
 /*Colouring of the text and the icons in footer*/
 footer {
   color: #ffffff;
