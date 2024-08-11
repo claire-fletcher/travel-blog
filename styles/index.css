@@ -2,6 +2,7 @@
   outline: 1px solid orange;
 } */
 
+
 /*Colouring of the text and the icons in footer*/
 footer {
   color: #ffffff;
@@ -88,8 +89,7 @@ h6 {
   line-height: 22px
 }
 
-/* css for carousel */
-
+/* css for Buttons */
 .readMore {
   font-weight:100;
   align-items: center;
