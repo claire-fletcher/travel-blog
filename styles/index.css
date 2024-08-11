@@ -20,18 +20,48 @@ footer {
 
 
 /*Navbar formatting*/
-.nav-item.nav-link {
+
+
+.navbar {
+
+  background-color: #283a2c;
+
+}
+
+.collapse {
+
+  justify-content: center;
+
+}
+
+.navbar-brand {
+
+  color: #F1EFEC;
+
+}
+
+.nav-link {
   color: #ffffff;
+
 }
 
-.nav-item.nav-link:hover {
+.nav-link:hover {
   color: #daddc5;
+
 }
 
-.nav-item.nav-link.active {
+.nav-link.mx-2.active {
   color: #ffffff;
   border-bottom: solid 2px #ffffff;
+
 }
+
+.navbar-toggler {
+
+  background-color: #daddc5;
+
+}
+
 
 /* .h1 {
     font-weight: 400;
