@@ -2,11 +2,16 @@
   outline: 1px solid orange;
 } */
 
+/* General Themes */
+body {
+  font-family: 'Montserrat';
+}
+
 
 /*Colouring of the text and the icons in footer*/
 footer {
   color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #283a2c;
 }
 
 .footer-icons {
