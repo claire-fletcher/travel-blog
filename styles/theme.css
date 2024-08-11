@@ -1,0 +1,46 @@
+/* * {
+  outline: 1px solid orange;
+} */
+
+body {
+    font-family: 'Montserrat';
+}
+  
+footer {
+color: #ffffff;
+background-color: #283a2c;
+}
+
+.footer-icons {
+color: #ffffff;
+font-size: 2.5vh;
+}
+
+.navbar {
+  background-color: #283a2c;
+}
+
+.collapse {
+  justify-content: center;
+}
+
+.navbar-brand {
+  color: #F1EFEC;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #daddc5;
+}
+
+.nav-link.mx-2.active {
+  color: #ffffff;
+  border-bottom: solid 2px #ffffff;
+}
+
+.navbar-toggler {
+  background-color: #daddc5;
+}
