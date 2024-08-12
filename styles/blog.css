@@ -1,8 +1,3 @@
-/* added in font-family here due to it sometimes glitching */
-body {
-    font-family: 'Montserrat';
-}
-
 /* css for blog pages */
 .blog-img {
     height: 270px;
