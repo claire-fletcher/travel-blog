@@ -27,7 +27,7 @@
   top: 0;
   background-position: center;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .h1-carousel {
@@ -44,7 +44,7 @@ h6 {
 
 /* css for Buttons */
 .readMore {
-  font-weight:100;
+  font-weight: 100;
   align-items: center;
   background-color: #283a2c;
   border: 2px solid #ffffff;
@@ -52,7 +52,7 @@ h6 {
   box-sizing: border-box;
   color: #ffffff;
   display: flex;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   height: 48px;
   justify-content: center;
@@ -67,6 +67,6 @@ h6 {
   touch-action: manipulation;
 }
 
-.readMore:hover{
+.readMore:hover {
   color: #daddc5;
 }
