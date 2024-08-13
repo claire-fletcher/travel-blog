@@ -1,5 +1,5 @@
 // favorite / like / dislike buttons on blog page
-function toggleFavorite () {
+function toggleFavorite() {
     document.getElementById('favoriteBtn').classList.toggle('selected');
     favoriteCounter = document.getElementById('favoriteCount');
     faves = parseInt(favoriteCounter.textContent);
@@ -16,7 +16,7 @@ function toggleFavorite () {
     document.getElementById('dislikeBtn').classList.remove('selected');
 }
 
-function toggleLike () {
+function toggleLike() {
     document.getElementById('likeBtn').classList.toggle('selected');
     likeCounter = document.getElementById('likeCount');
     likes = parseInt(likeCounter.textContent);
@@ -33,7 +33,7 @@ function toggleLike () {
     document.getElementById('dislikeBtn').classList.remove('selected');
 }
 
-function toggleDislike () {
+function toggleDislike() {
     document.getElementById('dislikeBtn').classList.toggle('selected');
     dislikeCounter = document.getElementById('dislikeCount');
     dises = parseInt(dislikeCounter.textContent);
