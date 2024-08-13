@@ -33,11 +33,10 @@ footer {
   border-bottom: solid 2px #ffffff;
 }
 
-/* .h1 {
-    font-weight: 400;
-    font-size: 100px;
+.navbar-brand {
+  color: #F1EFEC;
+  max-width: 5%;
 }
-
 
 /* css for carousel */
 
