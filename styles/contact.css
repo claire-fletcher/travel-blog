@@ -1,3 +1,8 @@
+.navbar-brand {
+  color: #F1EFEC;
+  max-width: 5%;
+}
+
 .contact-container {
   margin: auto;
   font-size: 16px;

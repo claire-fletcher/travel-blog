@@ -1,3 +1,8 @@
 #clickableImage {
     cursor: pointer;
 }
+
+.navbar-brand {
+    color: #F1EFEC;
+    max-width: 5%;
+  }

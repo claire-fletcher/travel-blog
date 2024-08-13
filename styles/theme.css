@@ -44,3 +44,8 @@ footer {
 .navbar-toggler {
   background-color: #daddc5;
 }
+
+.navbar-brand {
+  color: #F1EFEC;
+  max-width: 5%;
+}
