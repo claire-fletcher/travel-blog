@@ -6,7 +6,7 @@ Code First Girls Introduction to Website Design
 - Multiple Pages
 - Working links with scroll and click across all pages
 - Three blog pages
-- A photos page with dynamic photo modal on click
+- A photos page with dynamically loaded photo modal on click
 - Blog pages have reactions using javascript!
 - Contact us page
 - Use of bootstrap and used the container model to match up with the wireframe
