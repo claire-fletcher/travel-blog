@@ -13,7 +13,7 @@ Code First Girls Introduction to Website Design
 - consistent theme using separate styling css
 - Hover effect on links, active links
 - Carousel with rotating images, links, and overlaid colour to dull images for easier text reading
-- Footer with links to other pages
+- Footer with links to other pages using icons from fabicon and some CSS to match our theme
 - Responsive design with stacking on mobile and a hamburger navigation
 - Designed theme with specific font and consistent colouring to match travel theme
 - Specially designed logo to match travel theme!
