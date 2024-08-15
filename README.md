@@ -20,3 +20,9 @@ Code First Girls Introduction to Website Design
 - Cards are all a consistent size with buttons aligned with the bottom no matter the image or text used
 - Use of github pages, github branching for collaborative development, and github pull requests
 - Consideration of UI and UX design with things such as the active underlines
+
+### Wireframe Design: From Design to Implementation
+![Desktop Wireframe](wireframe-desktop.png)
+*Desktop wireframe with developer notes to help when implementing*
+![Mobile Wireframe](wireframe-mobile.png)
+*Mobile wireframe with responsive design considerations*
